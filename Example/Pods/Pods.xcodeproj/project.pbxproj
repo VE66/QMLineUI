@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = libmp3lame;
+			productName = libmp3lame;
 		};
 /* End PBXAggregateTarget section */
 
@@ -1032,7 +1033,7 @@
 		02A52CF0B0C5985A6A02CD1495ECC151 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
 		02EA1825DF7231BEEE00222B597CAB2E /* emoji_24.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = emoji_24.png; sourceTree = "<group>"; };
 		0301E043C13F7FB4FA1DB73AE24FA47D /* QMLineError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMLineError.h; sourceTree = "<group>"; };
-		032664CC09D376D2EEFFFDE73D20BB91 /* video_chat_tip_sender.aac */ = {isa = PBXFileReference; includeInIndex = 1; path = video_chat_tip_sender.aac; sourceTree = "<group>"; };
+		032664CC09D376D2EEFFFDE73D20BB91 /* video_chat_tip_sender.aac */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = video_chat_tip_sender.aac; sourceTree = "<group>"; };
 		0381AA440770F1EC3CEC4B90A8D9CA4F /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/Core/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		03E549BBB417219E3C1EEA6F3C2D96FC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		03F439F69659143888D6836DFA7FC9D4 /* QNUploadRequestMetrics.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNUploadRequestMetrics.m; path = QiniuSDK/Http/QNUploadRequestMetrics.m; sourceTree = "<group>"; };
@@ -1251,7 +1252,7 @@
 		401A48AC37D35FC49A245A2CC433B34B /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
 		40293B940218A982B7BAB747F2606FEA /* QNTxtResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNTxtResolver.m; path = HappyDNS/Local/QNTxtResolver.m; sourceTree = "<group>"; };
 		40361C7BE467B96431E170620E4FC963 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
-		40550E3521455037BD9BE19A2FB53A58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		40550E3521455037BD9BE19A2FB53A58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		406004B0DA97B63CD22E9AE15ECD4E63 /* SDImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCoder.m; path = SDWebImage/Core/SDImageCoder.m; sourceTree = "<group>"; };
 		4070DEA811A5BB2CC2EE9629B171B809 /* QMLineSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMLineSDK.debug.xcconfig; sourceTree = "<group>"; };
 		40C7B4C82BD5F78EBA6B6013A16FB775 /* QMServiceFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMServiceFunction.h; sourceTree = "<group>"; };
@@ -1336,7 +1337,7 @@
 		5624BD0F597F68E6D2D50740210339D1 /* QMFormSingleLineCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMFormSingleLineCell.h; sourceTree = "<group>"; };
 		565ECB2EF0BBD162372726BD71377E8B /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/Core/UIView+WebCache.m"; sourceTree = "<group>"; };
 		57147EF28F1A47D30019C3C75F6CCAD8 /* QMChatRoomViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMChatRoomViewController.h; sourceTree = "<group>"; };
-		5738F147F15AE50CCCFED94172D16439 /* city.json */ = {isa = PBXFileReference; includeInIndex = 1; path = city.json; sourceTree = "<group>"; };
+		5738F147F15AE50CCCFED94172D16439 /* city.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
 		5776A81F1DD4127E722AE1F2FB6ACE03 /* QNDohResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNDohResolver.h; path = HappyDNS/Dns/QNDohResolver.h; sourceTree = "<group>"; };
 		587AC6A41CF588FDD5B609F478281381 /* SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDmetamacros.h; path = SDWebImage/Private/SDmetamacros.h; sourceTree = "<group>"; };
 		590B2F3434A195E2AB7E6AFF95120CC4 /* emoji_8.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = emoji_8.png; sourceTree = "<group>"; };
@@ -1399,7 +1400,7 @@
 		6AF550A943EBE0C2FA079F3DFB27B490 /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
 		6B632E1C4F01E49445E038E89E963DF5 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		6BD6EF4C2289CD4A98627304AC6A4E17 /* HappyDNS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HappyDNS-umbrella.h"; sourceTree = "<group>"; };
-		6C2938450E0995B2DFE29CFDF46AA466 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6C2938450E0995B2DFE29CFDF46AA466 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6C3642ED773D86B8D9AF51F42570C7FD /* SRURLUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRURLUtilities.h; path = SocketRocket/Internal/Utilities/SRURLUtilities.h; sourceTree = "<group>"; };
 		6C815BCA5001449CEB85CF841686F5A0 /* QMCustomLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMCustomLayout.m; sourceTree = "<group>"; };
 		6C86AFBDE1C801CD36B2F1D97651FCD9 /* QMChatMoreView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMChatMoreView.h; sourceTree = "<group>"; };
@@ -1534,7 +1535,7 @@
 		8BF70C769B70CAC76585D513F0400710 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		8C42F2AD1297675066B6927244174E34 /* emoji_7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = emoji_7.png; sourceTree = "<group>"; };
 		8CCEFAE90363C2E52DED1C737D39B2C3 /* QNCrc32.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNCrc32.m; path = QiniuSDK/Utils/QNCrc32.m; sourceTree = "<group>"; };
-		8CD8ADDD78B761533013AEB8801F7625 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8CD8ADDD78B761533013AEB8801F7625 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8D08BA7D1D0F821FAC674E79FC8C7449 /* QNFileDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNFileDelegate.h; path = QiniuSDK/Utils/QNFileDelegate.h; sourceTree = "<group>"; };
 		8D3A51E9C1CA8B8A73252D447D738201 /* QNAsyncRun.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNAsyncRun.m; path = QiniuSDK/Utils/QNAsyncRun.m; sourceTree = "<group>"; };
 		8E25CD42F7AA56341CE3EE75204406BA /* SDWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWeakProxy.m; path = SDWebImage/Private/SDWeakProxy.m; sourceTree = "<group>"; };
@@ -1585,7 +1586,7 @@
 		9C0EBE21A7BA3033E1054A9C491BE632 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/Core/SDWebImageTransition.m; sourceTree = "<group>"; };
 		9C5901F83C15E80C633974B66CE76201 /* QNDnsUdpResolver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNDnsUdpResolver.m; path = HappyDNS/Dns/QNDnsUdpResolver.m; sourceTree = "<group>"; };
 		9D0450BD5A48C6D24CCC9660D3E40E63 /* QNAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNAsyncUdpSocket.m; path = HappyDNS/Util/QNAsyncUdpSocket.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9F0735943EC11D9ECE7F761A9C50FA /* SDAnimatedImagePlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImagePlayer.h; path = SDWebImage/Core/SDAnimatedImagePlayer.h; sourceTree = "<group>"; };
 		9DDC44CDB1A402E8CCC04915CED6C5ED /* QNUploadServerNetworkStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNUploadServerNetworkStatus.h; path = QiniuSDK/Http/NetworkStatus/QNUploadServerNetworkStatus.h; sourceTree = "<group>"; };
 		9E6851FDCD69D28A639C64F6FECEF4F6 /* QMPushManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QMPushManager.m; sourceTree = "<group>"; };
@@ -1734,7 +1735,7 @@
 		C7402ADB70C1FB9B517604C95D47C316 /* QNFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNFile.h; path = QiniuSDK/Utils/QNFile.h; sourceTree = "<group>"; };
 		C7500605854E28009DC973B9A4F5C4CE /* SDAssociatedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAssociatedObject.h; path = SDWebImage/Private/SDAssociatedObject.h; sourceTree = "<group>"; };
 		C7DE42B80BC479070205ECDA84BFF511 /* QNUploadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNUploadManager.h; path = QiniuSDK/Storage/QNUploadManager.h; sourceTree = "<group>"; };
-		C811E129E9BA66C2A0A40EADF96F6BCB /* QMLineUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMLineUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C811E129E9BA66C2A0A40EADF96F6BCB /* QMLineUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QMLineUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C81C9EE1E0A4287C7C91EFD5E890868A /* emoji_31.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = emoji_31.png; sourceTree = "<group>"; };
 		C83DE6AAC63D93442D0D907B43AA952E /* QNMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QNMD5.m; path = HappyDNS/Util/QNMD5.m; sourceTree = "<group>"; };
 		C83F387019E007CABBC02A352B5AFD96 /* QNUploadInfoV2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QNUploadInfoV2.h; path = QiniuSDK/Storage/QNUploadInfoV2.h; sourceTree = "<group>"; };
@@ -1768,7 +1769,7 @@
 		D1CC38B7E401F10FDFABFC64BDBF557B /* SDImageTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageTransformer.m; path = SDWebImage/Core/SDImageTransformer.m; sourceTree = "<group>"; };
 		D21697003CE3F64221345430B79E824C /* QMTipMessageCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMTipMessageCell.h; sourceTree = "<group>"; };
 		D27599D80A2253099E4578DBC62BB0CC /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/Core/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
-		D28A81BB6B731CB8FCF38F8E4BFB9042 /* video_chat_tip_receiver.aac */ = {isa = PBXFileReference; includeInIndex = 1; path = video_chat_tip_receiver.aac; sourceTree = "<group>"; };
+		D28A81BB6B731CB8FCF38F8E4BFB9042 /* video_chat_tip_receiver.aac */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = video_chat_tip_receiver.aac; sourceTree = "<group>"; };
 		D2C3829333F3FEC9DB407A1C2643C822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D30B8F6158B1D952A1366198ECEE7755 /* SRError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRError.h; path = SocketRocket/Internal/Utilities/SRError.h; sourceTree = "<group>"; };
 		D35327C89CA7B6DB596208B5B00BB0D6 /* emoji_17.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = emoji_17.png; sourceTree = "<group>"; };
@@ -1870,7 +1871,7 @@
 		EF01F5E44CDB3DADE78FD35D5DB982BE /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
 		EFF83EB6EB5A9F808C5E8CA9CA9B0DD1 /* emoji_26.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = emoji_26.png; sourceTree = "<group>"; };
 		EFF95200E09533C3EADC39364E819E11 /* AnswerMoreView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AnswerMoreView.m; sourceTree = "<group>"; };
-		F03BC3193FCAAFBCE7F9C73EF15705F2 /* QMLineSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QMLineSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F03BC3193FCAAFBCE7F9C73EF15705F2 /* QMLineSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QMLineSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0C34F7B11AD7523C61D766E7244331F /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/Core/SDWebImageTransition.h; sourceTree = "<group>"; };
 		F10C7D83A14462B40F87D023F449A466 /* QMChatFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMChatFormViewController.h; sourceTree = "<group>"; };
 		F1191A2B735DFCD4A4BDAB6E4C36FBB2 /* QMChatInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QMChatInputView.h; sourceTree = "<group>"; };
@@ -2106,7 +2107,6 @@
 				5624BD0F597F68E6D2D50740210339D1 /* QMFormSingleLineCell.h */,
 				47927142FD129368A1E5AB9756F88E61 /* QMFormSingleLineCell.m */,
 			);
-			name = Form;
 			path = Form;
 			sourceTree = "<group>";
 		};
@@ -2120,7 +2120,6 @@
 				5943A350A116AB980AD9B2863A0A0143 /* QMRegexHandle.h */,
 				45EC19FE0854E65A7FDC5F82BDFE670E /* QMRegexHandle.m */,
 			);
-			name = ChatTextManager;
 			path = ChatTextManager;
 			sourceTree = "<group>";
 		};
@@ -2199,7 +2198,6 @@
 				E8192DC80E13964E132CCE11FF7999C3 /* Resources */,
 				3FD6FCC56A9A654A7DCCD471FEF8ECFD /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -2271,7 +2269,6 @@
 				00DEB00754E29F4D3DBDB5DC9CC3E32E /* ViewController+MASAdditions.m */,
 				747B908E2FD5DC5DBF27E703D482EBC6 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -2359,7 +2356,6 @@
 				D21697003CE3F64221345430B79E824C /* QMTipMessageCell.h */,
 				1EEE6659BF71CC1CDA8123EE08004CD7 /* QMTipMessageCell.m */,
 			);
-			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -2419,7 +2415,6 @@
 				AB044E6416B028CE5410D9CDA6B907FF /* SRWebSocket.m */,
 				B4ACE6A67FFEA74DC4AE7F64006E820B /* Support Files */,
 			);
-			name = SocketRocket;
 			path = SocketRocket;
 			sourceTree = "<group>";
 		};
@@ -2445,7 +2440,6 @@
 				28E135DFDC2274C6C9B956FFC5331B5B /* JSONValueTransformer.m */,
 				4D6E404AC5E923F605FF63CC29ECBF70 /* Support Files */,
 			);
-			name = JSONModel;
 			path = JSONModel;
 			sourceTree = "<group>";
 		};
@@ -2471,7 +2465,6 @@
 				CCDFC2991C4C598013603874DF76561B /* Frameworks */,
 				47D8E58E5BA4E740C5F941988FDD0048 /* Support Files */,
 			);
-			name = libmp3lame;
 			path = libmp3lame;
 			sourceTree = "<group>";
 		};
@@ -2519,7 +2512,6 @@
 				062DE47AA19C1F80A9BA5AC1E4C26B09 /* standard */,
 				F813B7DBB9DAB21C39CEA3DC6F1FB1F5 /* Support Files */,
 			);
-			name = FMDB;
 			path = FMDB;
 			sourceTree = "<group>";
 		};
@@ -2548,7 +2540,6 @@
 				A5BABED8FD52F8896BC51F58789E1D39 /* QMCardInfoModel.h */,
 				BB2E6369A0901910D51481440CF29B50 /* QMCardInfoModel.m */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -2614,7 +2605,6 @@
 				C4A4341B3DC0BCCF10AFC28DDE87CF10 /* QMPickedVideoViewController.h */,
 				9B223664C3C388701CA88AABA7578734 /* QMPickedVideoViewController.m */,
 			);
-			name = ViewController;
 			path = ViewController;
 			sourceTree = "<group>";
 		};
@@ -2640,7 +2630,6 @@
 				1640B94E783B8A09E9860FF916FDCB63 /* QMQuestionModel.h */,
 				B6D2EC18FD3DB17BB3B15FCD0FCC56A3 /* QMQuestionModel.m */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -2663,7 +2652,6 @@
 				A4AB90D5F85892DCB534541D2CDEEFDF /* QMAudioRecorder.h */,
 				D96CF25716D0877B3BFC1F040A5923D0 /* QMAudioRecorder.m */,
 			);
-			name = QMAudio;
 			path = QMAudio;
 			sourceTree = "<group>";
 		};
@@ -2869,7 +2857,6 @@
 				415FEBCC539E1C644924028956EB94DD /* QNZoneInfo.m */,
 				D7033B29FC101B4A9C0BBA324041EFE9 /* Support Files */,
 			);
-			name = Qiniu;
 			path = Qiniu;
 			sourceTree = "<group>";
 		};
@@ -2881,7 +2868,6 @@
 				C0C49A07AAB7B2571684933F1498E2F4 /* View */,
 				60AF94D98F0330E42C48B45A97C9064D /* ViewController */,
 			);
-			name = FileManager;
 			path = FileManager;
 			sourceTree = "<group>";
 		};
@@ -2934,7 +2920,6 @@
 				7DE5D5BF570AE378DB255B5FC1E8111D /* QMVideoTableCell.h */,
 				90A2C663342B6501D93BBFAC386F942E /* QMVideoTableCell.m */,
 			);
-			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -2946,7 +2931,6 @@
 				E9E7D9308778AE4306F78C9394B1F8CF /* TTTAttributedLabel.h */,
 				61E802280A121EEE2DD380E7252ABD1D /* TTTAttributedLabel.m */,
 			);
-			name = EmojiLabel;
 			path = EmojiLabel;
 			sourceTree = "<group>";
 		};
@@ -3001,7 +2985,6 @@
 				0A9B2BE13D4218E4C8CFD8DA871897B2 /* Form */,
 				D2E4EEE7612DDFAFE338F500B5486A09 /* msgTask */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -3017,7 +3000,6 @@
 				45C71DBA351F8767D358002641E60F93 /* UIView+QMView.h */,
 				D3820A94F9EDD9C16AA18EFE6C8BD5FA /* UIView+QMView.m */,
 			);
-			name = Category;
 			path = Category;
 			sourceTree = "<group>";
 		};
@@ -3066,7 +3048,6 @@
 				83D0AA93AF31A0020551D9341EC7C097 /* emoji_9.png */,
 				78D80F290D4A2CAF0582D5D07E835F12 /* emoji_delete.png */,
 			);
-			name = QMEmoticon.bundle;
 			path = QMEmoticon.bundle;
 			sourceTree = "<group>";
 		};
@@ -3116,7 +3097,6 @@
 				D5DA2AC18C54AF1F9256DB70C4E30AF4 /* QMFileTabbarView.h */,
 				C0990AB8209A1E331A62C7ACB8633B4D /* QMFileTabbarView.m */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -3140,7 +3120,6 @@
 				23881AF699FA06A9922019C6BCBDC24A /* QMQuestionViewController.h */,
 				092D8EF98144970454E9B9F70F63EA81 /* QMQuestionViewController.m */,
 			);
-			name = ViewController;
 			path = ViewController;
 			sourceTree = "<group>";
 		};
@@ -3173,7 +3152,6 @@
 				C503A31A5F2FE5DC91E4A8B4F8137D1C /* QMMoreCardView.m */,
 				4CD157F97E1A0F049ACD8C374C8F6D28 /* Models */,
 			);
-			name = msgTask;
 			path = msgTask;
 			sourceTree = "<group>";
 		};
@@ -3369,7 +3347,6 @@
 				D4CBF8D889782AD90FFA3216506A486A /* Core */,
 				23CEFCBD381EB47BA74B5FDE0461CFC7 /* Support Files */,
 			);
-			name = SDWebImage;
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
@@ -3431,7 +3408,6 @@
 				40293B940218A982B7BAB747F2606FEA /* QNTxtResolver.m */,
 				0207F3D290E26BCB2ADC814233CAF7EA /* Support Files */,
 			);
-			name = HappyDNS;
 			path = HappyDNS;
 			sourceTree = "<group>";
 		};
@@ -3445,7 +3421,6 @@
 				B755FCA19CF17466FC128C4486859075 /* QMProfileManager.h */,
 				DAA2D0F0EDBA8184F84BB32863C6DB93 /* QMProfileManager.m */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -3478,7 +3453,6 @@
 				BA79A7E0B8F80AE066FAD4A69AF81D31 /* SJVoiceTransform.h */,
 				B03155B24E991E24BF396D32FBC3DB4C /* SJVoiceTransform.m */,
 			);
-			name = Voice;
 			path = Voice;
 			sourceTree = "<group>";
 		};
@@ -3494,7 +3468,6 @@
 				18DE193505ABEF18A23847792C37BDC4 /* SegmentView.h */,
 				2E84BD769FD881569EFA082F21484C7E /* SegmentView.m */,
 			);
-			name = CommonProblem;
 			path = CommonProblem;
 			sourceTree = "<group>";
 		};
@@ -4233,6 +4206,7 @@
 			knownRegions = (
 				Base,
 				en,
+				"zh-Hans",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 493CF138510A5EA33EEA0BCE98947D18 /* Products */;
@@ -5572,8 +5546,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
