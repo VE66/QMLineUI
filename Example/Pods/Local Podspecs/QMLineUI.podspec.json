@@ -35,10 +35,6 @@
     ],
     "QMLineSDK": [
 
-    ],
-    "libmp3lame": [
-      "~> 3.99.5"
     ]
-  },
-  "static_framework": true
+  }
 }

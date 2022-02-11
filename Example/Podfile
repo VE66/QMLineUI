@@ -5,9 +5,9 @@ platform :ios, '11.0'
 target 'QMLineUI_Example' do
   pod 'QMLineUI', :path => '../'
 
-#  pod 'QMLineSDK', :path => '../QMLineSDK/'
+  pod 'QMLineSDK', :path => '../QMLineSDK/'
 #pod 'SocketRocket', 'SocketRocket', '~> 0.6.0'
   pod 'JSONModel'
-  pod 'libmp3lame', '~> 3.99.5'
+#  pod 'libmp3lame', '~> 3.99.5'cd ex
   
 end

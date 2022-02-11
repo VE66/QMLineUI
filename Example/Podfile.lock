@@ -4,18 +4,16 @@ PODS:
   - FMDB/standard (2.7.5)
   - HappyDNS (1.0.0)
   - JSONModel (1.8.0)
-  - libmp3lame (3.99.5)
   - Masonry (1.1.0)
   - MJRefresh (3.7.5)
   - Qiniu (8.4.0):
     - HappyDNS (~> 1.0.0)
-  - QMLineSDK (4.0.0):
+  - QMLineSDK (4.0.1):
     - FMDB (~> 2.7.5)
     - Qiniu (~> 8.4.0)
-    - SocketRocket (~> 0.5.1)
+    - SocketRocket (~> 0.6.0)
   - QMLineUI (0.1.0):
     - JSONModel (~> 1.8.0)
-    - libmp3lame (~> 3.99.5)
     - Masonry (~> 1.1.0)
     - MJRefresh (~> 3.7.5)
     - QMLineSDK
@@ -23,11 +21,11 @@ PODS:
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
-  - SocketRocket (0.5.1)
+  - SocketRocket (0.6.0)
 
 DEPENDENCIES:
   - JSONModel
-  - libmp3lame (~> 3.99.5)
+  - QMLineSDK (from `../QMLineSDK/`)
   - QMLineUI (from `../`)
 
 SPEC REPOS:
@@ -35,15 +33,15 @@ SPEC REPOS:
     - FMDB
     - HappyDNS
     - JSONModel
-    - libmp3lame
     - Masonry
     - MJRefresh
     - Qiniu
-    - QMLineSDK
     - SDWebImage
     - SocketRocket
 
 EXTERNAL SOURCES:
+  QMLineSDK:
+    :path: "../QMLineSDK/"
   QMLineUI:
     :path: "../"
 
@@ -51,15 +49,14 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   HappyDNS: 288f1be2bcd46ace74f241d4d76c13b8dd33a00c
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
-  libmp3lame: 1f867bc673ffd466fa206a18998c331b8342899a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   Qiniu: df5794ac9549e69be616eaf6a390d858a502430b
-  QMLineSDK: 51213f73c812dab3849bbd160c197af18b3d0e58
-  QMLineUI: 5f4cd4d2da701c04df42a0734ff7282d77a14e8d
+  QMLineSDK: 151b78ded4798e152d4989bcd4d7f91a6ea9418f
+  QMLineUI: af82826c4eb03ae182aa267196ffa35224ddb7d3
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
-PODFILE CHECKSUM: 2c55e4addd6f172be331d9f0baf45c44a8238b63
+PODFILE CHECKSUM: 40cc1535a2683a9c0cf7c039cd505e1f9425f05e
 
 COCOAPODS: 1.11.2

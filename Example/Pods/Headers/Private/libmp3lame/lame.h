@@ -1,1 +1,0 @@
-../../../libmp3lame/libmp3lame/Lame/lame.h
