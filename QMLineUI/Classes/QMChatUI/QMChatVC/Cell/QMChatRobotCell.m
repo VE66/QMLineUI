@@ -31,13 +31,13 @@
     [super setData:message avater:avater];
     
     self.contentLab.text = message.message;
-    if (message.attrAttachmentReplaced == 1) {
-        [self handleImage:message];
-    }
-    
-    if (message.contentAttr && message.contentAttr.length > 0) {
-        self.contentLab.attributedText = message.contentAttr;
-    }
+//    if (message.attrAttachmentReplaced == 1) {
+//        [self handleImage:message];
+//    }
+//
+//    if (message.contentAttr && message.contentAttr.length > 0) {
+//        self.contentLab.attributedText = message.contentAttr;
+//    }
     
     if (isDarkStyle) {
         self.contentLab.textColor = [UIColor colorWithHexString:QMColor_FFFFFF_text];
@@ -50,40 +50,40 @@
     __block BOOL needReload = NO;
     __block BOOL replacedAll = YES;
     
-    [model.contentAttr enumerateAttribute:NSAttachmentAttributeName inRange:NSMakeRange(0, model.contentAttr.length) options:NSAttributedStringEnumerationReverse usingBlock:^(id  _Nullable value, NSRange range, BOOL * _Nonnull stop) {
-        
-        if ([value isKindOfClass:[QMChatFileTextAttachment class]]) {
-            QMChatFileTextAttachment *attach = (QMChatFileTextAttachment *)value;
-            
-            if ([attach.type isEqualToString:@"image"] && attach.need_replaceImage == YES) {
-                NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
-                path = [path stringByAppendingPathComponent:attach.url.lastPathComponent];
-                
-                if ([[NSFileManager defaultManager] fileExistsAtPath:path] == true) {
-                    NSData *data = [[NSData alloc] initWithContentsOfFile:path options:NSDataReadingMappedAlways error:nil];
-                    if (data.length > 0) {
-                        UIImage *image = [[UIImage alloc] initWithData:data];
-                        attach.image = image;
-                        attach.need_replaceImage = NO;
-                        needReload = YES;
-                    }
-                } else {
-                    replacedAll = NO;
-                }
-            }
-        }
-    }];
+//    [model.contentAttr enumerateAttribute:NSAttachmentAttributeName inRange:NSMakeRange(0, model.contentAttr.length) options:NSAttributedStringEnumerationReverse usingBlock:^(id  _Nullable value, NSRange range, BOOL * _Nonnull stop) {
+//
+//        if ([value isKindOfClass:[QMChatFileTextAttachment class]]) {
+//            QMChatFileTextAttachment *attach = (QMChatFileTextAttachment *)value;
+//
+//            if ([attach.type isEqualToString:@"image"] && attach.need_replaceImage == YES) {
+//                NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
+//                path = [path stringByAppendingPathComponent:attach.url.lastPathComponent];
+//
+//                if ([[NSFileManager defaultManager] fileExistsAtPath:path] == true) {
+//                    NSData *data = [[NSData alloc] initWithContentsOfFile:path options:NSDataReadingMappedAlways error:nil];
+//                    if (data.length > 0) {
+//                        UIImage *image = [[UIImage alloc] initWithData:data];
+//                        attach.image = image;
+//                        attach.need_replaceImage = NO;
+//                        needReload = YES;
+//                    }
+//                } else {
+//                    replacedAll = NO;
+//                }
+//            }
+//        }
+//    }];
     
-    if (replacedAll) {
-        model.attrAttachmentReplaced = 2;
-    }
-    
-    if (needReload) {
-        self.contentLab.attributedText = model.contentAttr;
-        if (self.needReloadCell) {
-            self.needReloadCell(model);
-        }
-    }
+//    if (replacedAll) {
+//        model.attrAttachmentReplaced = 2;
+//    }
+//
+//    if (needReload) {
+//        self.contentLab.attributedText = model.contentAttr;
+//        if (self.needReloadCell) {
+//            self.needReloadCell(model);
+//        }
+//    }
 }
 
 - (QMChatTextView *)contentLab {
@@ -101,27 +101,27 @@
 
 #pragma mark -------textViewDelegate-----
 - (BOOL)handelTextAttachment:(NSTextAttachment *)textAttachment inRange:(NSRange)characterRang {
-    if ([textAttachment isKindOfClass:[QMChatFileTextAttachment class]]) {
-        QMChatFileTextAttachment *attach = (QMChatFileTextAttachment *)textAttachment;
-        if ([attach.type isEqualToString:@"image"]) {
-            QMChatShowImageViewController * showPicVC = [[QMChatShowImageViewController alloc] init];
-            showPicVC.modalPresentationStyle = UIModalPresentationFullScreen;
-                NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
-                path = [path stringByAppendingPathComponent:attach.url.lastPathComponent];
-                if ([[NSFileManager defaultManager] fileExistsAtPath:path] == true) {
-                    NSData *data = [[NSData alloc] initWithContentsOfFile:path options:NSDataReadingMappedAlways error:nil];
-                    if (data.length > 0) {
-                        UIImage *image = [[UIImage alloc] initWithData:data];
-                        showPicVC.image = image;
-                    }
-                }
-            
-            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPicVC animated:true completion:nil];
-        } else {
-            self.tapNetAddress(attach.url);
-        }
-        return false;
-    }
+//    if ([textAttachment isKindOfClass:[QMChatFileTextAttachment class]]) {
+//        QMChatFileTextAttachment *attach = (QMChatFileTextAttachment *)textAttachment;
+//        if ([attach.type isEqualToString:@"image"]) {
+//            QMChatShowImageViewController * showPicVC = [[QMChatShowImageViewController alloc] init];
+//            showPicVC.modalPresentationStyle = UIModalPresentationFullScreen;
+//                NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject;
+//                path = [path stringByAppendingPathComponent:attach.url.lastPathComponent];
+//                if ([[NSFileManager defaultManager] fileExistsAtPath:path] == true) {
+//                    NSData *data = [[NSData alloc] initWithContentsOfFile:path options:NSDataReadingMappedAlways error:nil];
+//                    if (data.length > 0) {
+//                        UIImage *image = [[UIImage alloc] initWithData:data];
+//                        showPicVC.image = image;
+//                    }
+//                }
+//            
+//            [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPicVC animated:true completion:nil];
+//        } else {
+//            self.tapNetAddress(attach.url);
+//        }
+//        return false;
+//    }
     return YES;
 }
 

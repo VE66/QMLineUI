@@ -1774,16 +1774,16 @@
     if (textView.text.length > 0) {
         if (!self.isRobot) {
             isShowAssociatsInput = isShowAssociatsWithAgent;
-            if ([QMConnect sdkGetIsInputMonitor]) {
-                
-                long nowTime = [NSString getTimeStamp:[NSDate date]];
-                if ((dateTime == 0) || (nowTime - dateTime > 1)) {
-                    dateTime = nowTime;
-                    [QMConnect sdkInputMonitor:textView.text successBlock:^{
-                    } failBlock:^{
-                    }];
-                }
-            }
+//            if ([QMConnect sdkGetIsInputMonitor]) {
+//                
+//                long nowTime = [NSString getTimeStamp:[NSDate date]];
+//                if ((dateTime == 0) || (nowTime - dateTime > 1)) {
+//                    dateTime = nowTime;
+//                    [QMConnect sdkInputMonitor:textView.text successBlock:^{
+//                    } failBlock:^{
+//                    }];
+//                }
+//            }
         }
         if (isShowAssociatsInput) {
             NSString *robotType = [QMConnect sdkRobotType];
