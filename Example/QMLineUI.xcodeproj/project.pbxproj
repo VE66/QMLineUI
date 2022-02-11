@@ -173,6 +173,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				0AA7257BEECA38CD6535BB0D /* [CP] Embed Pods Frameworks */,
+				5CE5E5C6194A06F00ADAE62C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +265,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QMLineUI_Example/Pods-QMLineUI_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CE5E5C6194A06F00ADAE62C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QMLineUI_Example/Pods-QMLineUI_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/QMLineUI/QMLineUIBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMLineUIBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QMLineUI_Example/Pods-QMLineUI_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ED35B7CD641DE6746C8A4BFD /* [CP] Check Pods Manifest.lock */ = {
