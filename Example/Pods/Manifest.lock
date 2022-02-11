@@ -9,10 +9,10 @@ PODS:
   - MJRefresh (3.7.5)
   - Qiniu (8.4.0):
     - HappyDNS (~> 1.0.0)
-  - QMLineSDK (4.0.1):
+  - QMLineSDK (4.0.0):
     - FMDB (~> 2.7.5)
     - Qiniu (~> 8.4.0)
-    - SocketRocket (~> 0.6.0)
+    - SocketRocket (~> 0.5.1)
   - QMLineUI (0.1.0):
     - JSONModel (~> 1.8.0)
     - libmp3lame (~> 3.99.5)
@@ -23,13 +23,13 @@ PODS:
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
-  - SocketRocket (0.6.0)
+  - SocketRocket (0.5.1)
 
 DEPENDENCIES:
   - JSONModel
   - libmp3lame (~> 3.99.5)
-  - QMLineSDK (from `../QMLineSDK/`)
   - QMLineUI (from `../`)
+  - SocketRocket (~> 0.5.0)
 
 SPEC REPOS:
   trunk:
@@ -40,12 +40,11 @@ SPEC REPOS:
     - Masonry
     - MJRefresh
     - Qiniu
+    - QMLineSDK
     - SDWebImage
     - SocketRocket
 
 EXTERNAL SOURCES:
-  QMLineSDK:
-    :path: "../QMLineSDK/"
   QMLineUI:
     :path: "../"
 
@@ -57,11 +56,11 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   Qiniu: df5794ac9549e69be616eaf6a390d858a502430b
-  QMLineSDK: 151b78ded4798e152d4989bcd4d7f91a6ea9418f
+  QMLineSDK: 51213f73c812dab3849bbd160c197af18b3d0e58
   QMLineUI: 6035a77c40d72f95b526a94914235059ae7ba4c1
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 6cbb3909b4bcdbf7a14b8295b8c081c5875ebeaf
+PODFILE CHECKSUM: a92c0bc11700375e5502c074cd85fd5987767aa4
 
 COCOAPODS: 1.11.2
