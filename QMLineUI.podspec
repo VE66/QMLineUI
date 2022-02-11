@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'QMLineUI/Classes/**/*'
   
-   s.resource_bundles = {
-     'QMLineUIBundle' => ['QMLineUI/Assets/*.png']
-   }
+#   s.resource_bundles = {
+#     'QMLineUIBundle' => ['QMLineUI/Assets/*.png']
+#   }
 
-   s.public_header_files = 'QMLineUI/Classes/**/*.h'
+#   s.public_header_files = 'QMLineUI/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.dependency 'SDWebImage', '~> 5.11.1'
    s.dependency 'JSONModel', '~> 1.8.0'

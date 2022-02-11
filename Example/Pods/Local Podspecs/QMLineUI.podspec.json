@@ -19,12 +19,6 @@
     "ios": "11.0"
   },
   "source_files": "QMLineUI/Classes/**/*",
-  "resource_bundles": {
-    "QMLineUIBundle": [
-      "QMLineUI/Assets/*.png"
-    ]
-  },
-  "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "SDWebImage": [

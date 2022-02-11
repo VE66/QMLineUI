@@ -5,7 +5,7 @@ platform :ios, '11.0'
 target 'QMLineUI_Example' do
   pod 'QMLineUI', :path => '../'
 
-  pod 'QMLineSDK', :path => '../QMLineSDK/'
+  # pod 'QMLineSDK', :path => '../QMLineSDK/'
   pod 'JSONModel'
   pod 'libmp3lame', '~> 3.99.5'
   
