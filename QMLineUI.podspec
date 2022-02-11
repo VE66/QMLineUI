@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QMLineUI'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QMLineUI.'
+  s.summary          = 'QMLineUI 界面'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "QMLineSDK UI 界面"
 
   s.homepage         = 'https://github.com/VE66/QMLineUI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,15 +26,24 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/VE66/QMLineUI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'QMLineUI/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'QMLineUI' => ['QMLineUI/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'QMLineUIBundle' => ['QMLineUI/Assets/*.png']
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit'
+   s.dependency 'SDWebImage', '~> 5.11.1'
+   s.dependency 'JSONModel', '~> 1.8.0'
+   s.dependency 'Masonry', '~> 1.1.0'
+   s.dependency 'MJRefresh', '~> 3.7.5'
+   s.dependency 'QMLineSDK'
+   s.dependency 'libmp3lame', '~> 3.99.5'
+   s.static_framework = true
+   
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

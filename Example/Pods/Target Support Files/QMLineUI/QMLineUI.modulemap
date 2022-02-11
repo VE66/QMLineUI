@@ -1,0 +1,6 @@
+framework module QMLineUI {
+  umbrella header "QMLineUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

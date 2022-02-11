@@ -1,13 +1,12 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '11.0'
 
 target 'QMLineUI_Example' do
   pod 'QMLineUI', :path => '../'
 
-  target 'QMLineUI_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'QMLineSDK', :path => '../QMLineSDK/'
+  pod 'JSONModel'
+  pod 'libmp3lame', '~> 3.99.5'
+  
 end
