@@ -4,6 +4,7 @@ PODS:
   - FMDB/standard (2.7.5)
   - HappyDNS (1.0.0)
   - JSONModel (1.8.0)
+  - libmp3lame (3.99.5)
   - Masonry (1.1.0)
   - MJRefresh (3.7.5)
   - Qiniu (8.4.0):
@@ -14,6 +15,7 @@ PODS:
     - SocketRocket (~> 0.6.0)
   - QMLineUI (0.1.0):
     - JSONModel (~> 1.8.0)
+    - libmp3lame (~> 3.99.5)
     - Masonry (~> 1.1.0)
     - MJRefresh (~> 3.7.5)
     - QMLineSDK
@@ -25,6 +27,7 @@ PODS:
 
 DEPENDENCIES:
   - JSONModel
+  - libmp3lame (~> 3.99.5)
   - QMLineSDK (from `../QMLineSDK/`)
   - QMLineUI (from `../`)
 
@@ -33,6 +36,7 @@ SPEC REPOS:
     - FMDB
     - HappyDNS
     - JSONModel
+    - libmp3lame
     - Masonry
     - MJRefresh
     - Qiniu
@@ -49,14 +53,15 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   HappyDNS: 288f1be2bcd46ace74f241d4d76c13b8dd33a00c
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  libmp3lame: 1f867bc673ffd466fa206a18998c331b8342899a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
   Qiniu: df5794ac9549e69be616eaf6a390d858a502430b
   QMLineSDK: 151b78ded4798e152d4989bcd4d7f91a6ea9418f
-  QMLineUI: af82826c4eb03ae182aa267196ffa35224ddb7d3
+  QMLineUI: 5f4cd4d2da701c04df42a0734ff7282d77a14e8d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
-PODFILE CHECKSUM: 40cc1535a2683a9c0cf7c039cd505e1f9425f05e
+PODFILE CHECKSUM: 6cbb3909b4bcdbf7a14b8295b8c081c5875ebeaf
 
 COCOAPODS: 1.11.2
