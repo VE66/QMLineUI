@@ -6,7 +6,7 @@ target 'QMLineUI_Example' do
   pod 'QMLineUI', :path => '../'
 
 #  pod 'QMLineSDK', :path => '../QMLineSDK/'
-pod 'SocketRocket', '~> 0.5.0'
+pod 'SocketRocket', '~> 0.6.0'
   pod 'JSONModel'
   pod 'libmp3lame', '~> 3.99.5'
   

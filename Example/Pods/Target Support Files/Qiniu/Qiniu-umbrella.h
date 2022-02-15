@@ -49,7 +49,6 @@
 #import "QNUploadServer.h"
 #import "QNUploadServerFreezeManager.h"
 #import "QNUploadServerFreezeUtil.h"
-#import "QiniuSDK.h"
 #import "QNFileRecorder.h"
 #import "QNRecorderDelegate.h"
 #import "QNBaseUpload.h"
@@ -98,6 +97,7 @@
 #import "QNUtils.h"
 #import "QNVersion.h"
 #import "QN_GTM_Base64.h"
+#import "QiniuSDK.h"
 
 FOUNDATION_EXPORT double QiniuVersionNumber;
 FOUNDATION_EXPORT const unsigned char QiniuVersionString[];

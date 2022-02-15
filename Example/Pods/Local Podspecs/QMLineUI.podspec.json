@@ -1,6 +1,6 @@
 {
   "name": "QMLineUI",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "QMLineUI 界面",
   "description": "QMLineSDK UI 界面",
   "homepage": "https://github.com/VE66/QMLineUI",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/VE66/QMLineUI.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "11.0"
@@ -38,7 +38,7 @@
     "MJRefresh": [
       "~> 3.7.5"
     ],
-    "QMLineSDK": [
+    "QMLinezcTest": [
 
     ],
     "libmp3lame": [

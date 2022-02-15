@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
    s.dependency 'JSONModel', '~> 1.8.0'
    s.dependency 'Masonry', '~> 1.1.0'
    s.dependency 'MJRefresh', '~> 3.7.5'
-   s.dependency 'QMLineSDK'
+   s.dependency 'QMLinezcTest'
    
     s.static_framework = true
    s.dependency 'libmp3lame', '~> 3.99.5'

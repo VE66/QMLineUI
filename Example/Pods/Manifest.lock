@@ -2,34 +2,34 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - HappyDNS (1.0.0)
+  - HappyDNS (1.0.1)
   - JSONModel (1.8.0)
   - libmp3lame (3.99.5)
   - Masonry (1.1.0)
   - MJRefresh (3.7.5)
-  - Qiniu (8.4.0):
+  - Qiniu (8.4.1):
     - HappyDNS (~> 1.0.0)
-  - QMLineSDK (4.0.0):
-    - FMDB (~> 2.7.5)
-    - Qiniu (~> 8.4.0)
-    - SocketRocket (~> 0.5.1)
-  - QMLineUI (0.1.0):
+  - QMLineUI (0.1.1):
     - JSONModel (~> 1.8.0)
     - libmp3lame (~> 3.99.5)
     - Masonry (~> 1.1.0)
     - MJRefresh (~> 3.7.5)
-    - QMLineSDK
+    - QMLinezcTest
     - SDWebImage (~> 5.11.1)
+  - QMLinezcTest (4.0.0):
+    - FMDB (~> 2.7.5)
+    - Qiniu (~> 8.4.0)
+    - SocketRocket (~> 0.6.0)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
-  - SocketRocket (0.5.1)
+  - SocketRocket (0.6.0)
 
 DEPENDENCIES:
   - JSONModel
   - libmp3lame (~> 3.99.5)
   - QMLineUI (from `../`)
-  - SocketRocket (~> 0.5.0)
+  - SocketRocket (~> 0.6.0)
 
 SPEC REPOS:
   trunk:
@@ -40,7 +40,7 @@ SPEC REPOS:
     - Masonry
     - MJRefresh
     - Qiniu
-    - QMLineSDK
+    - QMLinezcTest
     - SDWebImage
     - SocketRocket
 
@@ -50,17 +50,17 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  HappyDNS: 288f1be2bcd46ace74f241d4d76c13b8dd33a00c
+  HappyDNS: f42060e8712490088020c96d121786478e188fe7
   JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
   libmp3lame: 1f867bc673ffd466fa206a18998c331b8342899a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
-  Qiniu: df5794ac9549e69be616eaf6a390d858a502430b
-  QMLineSDK: 51213f73c812dab3849bbd160c197af18b3d0e58
-  QMLineUI: 6035a77c40d72f95b526a94914235059ae7ba4c1
+  Qiniu: 75b3df2393664f8bd2fd7c5593aa7689d0425de2
+  QMLineUI: acdd31e55102c78c5cbdabd00d8cb969cfc33597
+  QMLinezcTest: 3712f53b3a368bfe263b4dd6955e5b219dd2cc2d
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
 
-PODFILE CHECKSUM: a92c0bc11700375e5502c074cd85fd5987767aa4
+PODFILE CHECKSUM: 652dd572192c98b472ca90b64e9b2ed4ea118f8d
 
 COCOAPODS: 1.11.2
