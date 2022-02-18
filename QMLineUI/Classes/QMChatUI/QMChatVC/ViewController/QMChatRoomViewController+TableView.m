@@ -168,11 +168,11 @@
             
             UIAlertAction *callAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"button.call", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                 NSString *phone = [NSString stringWithFormat:@"tel://%@",number];
-                if (@available(iOS 10.0, *)){
+//                if (@available(iOS 10.0, *)){
                     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone] options:@{} completionHandler:nil];
-                }else {
-                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone]];
-                }
+//                }else {
+//                    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phone]];
+//                }
             }];
             
             UIAlertAction *copyAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"button.copy", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {

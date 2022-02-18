@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface QMFormDateView : UIView
 
 typedef void(^dateChooseFinishedBlock)(NSString *date);
-typedef void(^dateChooseCancelBlock)();
+typedef void(^dateChooseCancelBlock)(void);
 
 /**
  日期选择器默认显示时间、返回时间格式以及成功或取消回调函数配置

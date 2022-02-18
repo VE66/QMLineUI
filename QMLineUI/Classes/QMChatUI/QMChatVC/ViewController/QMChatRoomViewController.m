@@ -1623,7 +1623,7 @@
                     UIAlertAction *action = [UIAlertAction actionWithTitle:NSLocalizedString(@"button.set", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
                         if (UIApplicationOpenSettingsURLString != NULL) {
                             NSURL *appSettings = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
-                            [[UIApplication sharedApplication] openURL:appSettings];
+                            [[UIApplication sharedApplication] openURL:appSettings options:@{} completionHandler:nil];
                         }
                     }];
                     

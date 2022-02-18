@@ -47,8 +47,8 @@
 - (void)handleImage:(CustomMessage *)model {
     
     // 处理html替换成原本图片-原图片过大加载过慢
-    __block BOOL needReload = NO;
-    __block BOOL replacedAll = YES;
+//    __block BOOL needReload = NO;
+//    __block BOOL replacedAll = YES;
     
 //    [model.contentAttr enumerateAttribute:NSAttachmentAttributeName inRange:NSMakeRange(0, model.contentAttr.length) options:NSAttributedStringEnumerationReverse usingBlock:^(id  _Nullable value, NSRange range, BOOL * _Nonnull stop) {
 //
